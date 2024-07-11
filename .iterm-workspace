@@ -1,0 +1,11 @@
+{
+  "tabs": [
+    {
+      "cd": ".",
+      "commands": [
+        "./scripts/f1f2.sh",
+        "sleep 1; tail -f f1f2.sh.log"
+      ]
+    }
+  ]
+}
