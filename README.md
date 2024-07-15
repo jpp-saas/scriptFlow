@@ -2,7 +2,7 @@
 
 ## rebase avant finish ?
 
-### sans rebase ni -r au finish, avec ou sans :wq ($ REBASE_BEFORE_FINISH=false)
+### sans rebase ni -r au finish ($ REBASE_BEFORE_FINISH=false)
 
 - il y a un commit merge, donc conflit potentiel
 
@@ -21,7 +21,7 @@
 |/
 * 7dc2175 (origin/main, main) Init
 
-### avec -r au finish ($ REBASE_BEFORE_FINISH=-r) avec ou sans :wq
+### avec -r au finish ($ REBASE_BEFORE_FINISH=-r)
 
 - L'historique de feature/F1 est réécrite pour récupérer feature/F2 mergée précédement sur
 develop
@@ -46,7 +46,7 @@ develop
 |/
 * 22edfcb (origin/main, main) Init
 
-### avec rebase depuis develop au finish, avec ou sans :wq ($ REBASE_BEFORE_FINISH=true)
+### avec rebase depuis develop au finish ($ REBASE_BEFORE_FINISH=true)
 
 - L'historique de feature/F1 est réécrite pour récupérer feature/F2 mergée précédement sur
 develop
